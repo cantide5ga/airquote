@@ -33,4 +33,4 @@ And install:
 `npm run install:remote-tgz --myproject:tgz=mypackage-0.1.0.tgz`
 
 ## Why you would need this
-You very likely don't. This satisfies a very specific use-case.  Use something like [Sinopia](https://github.com/rlidwka/sinopia).  npm also has support for using dependencies directly from GitHub or locally.
+You very likely don't. This satisfies a very specific use-case.  Use something like [Sinopia](https://github.com/rlidwka/sinopia).  npm also has support for using dependencies directly from GitHub or locally if semantic versioning isn't necessary.
