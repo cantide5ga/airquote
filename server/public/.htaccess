@@ -1,0 +1,6 @@
+<FilesMatch ".+\.tgz">
+AuthName "Authorization Required"
+AuthType Basic
+AuthUserFile /home/protected/.htpasswd
+Require valid-user
+</FilesMatch>

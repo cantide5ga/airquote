@@ -1,0 +1,12 @@
+{
+    "name": "myproject",
+    "config": {
+        "user": "myhandle",
+        "pass": "?????",
+        "tgz": ""  
+    },
+    "scripts": {
+        "install:remote-tgz": "wget --user $npm_package_config_user --password $npm_package_config_pass http://some/server/path/$npm_package_config_tgz && npm install $npm_package_config_tgz",
+        "publish:private": "npm version <major | minor | patch> && scp $(npm pack build) user@remotehost.net:remote/directory/path"
+    }
+}
