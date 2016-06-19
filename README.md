@@ -24,7 +24,7 @@ Use npm scripts to ease the pain along with configurations and arguments for reu
 (recommended to use an ssh-agent to keep from having to supply a password if frequently required)
 
 ### Installing Package from Repo
-Consitently passing in a password arg for *.htpasswd* is not recommended.  Set it for this project once:
+Consistently passing in a password arg for *.htpasswd* is not recommended.  Set it for this project once:
 
 `npm config set myproject:pass <password>`
 
